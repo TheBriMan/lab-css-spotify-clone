@@ -1,8 +1,144 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+  body {
+      font-family: Montserrat, sans-serif;
+      background-color: #FFF;
+      color: #1A1A1A;
+      font-size: 18px;
+  }
 
-*/
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 5%;
+      position: fixed;
+      top: 0;
+      overflow: hidden;
+      background-color: #FFF;
+  }
+
+  .logo {
+      width: 20%;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav li {
+      margin-left: 20px;
+      font-size: 24px;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: #1A1A1A;
+      font-weight: 200;
+  }
+
+  .header {
+      padding: 10px 5%;
+      background-image: url(../images/landing.jpg);
+      background-size: 1200px;
+      height: 760px;
+  }
+
+  h1 {
+      color: #FFF;
+      position: relative;
+      top: 190px;
+      text-align: center;
+      font-size: 90px;
+  }
+
+  .header p {
+      color: #FFF;
+      position: relative;
+      top: 130px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 200;
+  }
+
+  .whats-on-spotify {
+      height: 550px;
+  }
+
+  .whats-on-spotify h2 {
+      text-align: center;
+      font-size: 54px;
+  }
+
+  .whats-on-spotify img {
+      width: 34%;
+      display: block;
+      margin: auto;
+  }
+
+  .float-child {
+      float: left;
+      width: 33%;
+  }
+
+  .whats-on-spotify h3 {
+      color: #00B172;
+      text-align: center;
+      font-size: 44px;
+  }
+
+  .whats-on-spotify p {
+      text-align: center;
+      font-size: 40px;
+  }
+
+  #quality-img-height {
+      width: 40%;
+  }
+
+  .green-section {
+      background-color: #00B172;
+      height: 800px;
+  }
+
+  .green-section h2 {
+      font-size: 53px;
+      color: #fff;
+      border-bottom: solid 4px #fff;
+      padding-bottom: 10px;
+  }
+
+  .green-section h3 {
+      color: #FFF;
+      font-size: 40px;
+  }
+
+  .green-section p {
+      color: #FFF;
+      font-size: 24px;
+  }
+
+
+  .logo-absolute {
+      position: absolute;
+      top: 1730px;
+      left: 600px;
+      width: 10%;
+  }
+
+  .green-section-left {
+      margin-left: 5%;
+      float: left;
+      width: 50%
+  }
+
+  .spotify-app {
+      width: 25%;
+      float: right;
+      margin-right: 5%;
+      margin-top: 7%;
+  }
+  
